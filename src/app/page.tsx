@@ -15,7 +15,7 @@ export default async function Home() {
 				<div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
 					<div className="space-y-6 text-center">
 						<h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl">
-							Welcome Home
+							Welcome Hi
 						</h1>
 						<p className="text-xl text-slate-300">
 							{hello.greeting}
