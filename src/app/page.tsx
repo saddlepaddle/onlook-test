@@ -27,12 +27,6 @@ export default async function Home() {
 
 					<div className="grid gap-8 sm:grid-cols-2 w-full max-w-2xl">
 						<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
-							<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
-							<p className="text-slate-300 text-sm">
-								Explore the latest features and create your first project.
-							</p>
-						</div>
-						<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
 							<h3 className="font-semibold text-white mb-2">📚 Learn More</h3>
 							<p className="text-slate-300 text-sm">
 								Discover documentation and examples to accelerate your development.
@@ -50,6 +44,48 @@ export default async function Home() {
 					<Suspense fallback={<p className="text-slate-400">Loading posts...</p>}>
 						<LatestPost />
 					</Suspense>
+
+					<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
+						<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
+						<p className="text-slate-300 text-sm">
+							Explore the latest features and create your first project.
+						</p>
+					</div>
+
+					<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
+						<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
+						<p className="text-slate-300 text-sm">
+							Explore the latest features and create your first project.
+						</p>
+					</div>
+
+					<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
+						<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
+						<p className="text-slate-300 text-sm">
+							Explore the latest features and create your first project.
+						</p>
+					</div>
+
+					<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
+						<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
+						<p className="text-slate-300 text-sm">
+							Explore the latest features and create your first project.
+						</p>
+					</div>
+
+					<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
+						<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
+						<p className="text-slate-300 text-sm">
+							Explore the latest features and create your first project.
+						</p>
+					</div>
+
+					<div className="rounded-lg bg-slate-800 p-6 border border-slate-700 hover:border-slate-600 transition-colors">
+						<h3 className="font-semibold text-white mb-2">🚀 Get Started</h3>
+						<p className="text-slate-300 text-sm">
+							Explore the latest features and create your first project.
+						</p>
+					</div>
 				</div>
 			</main>
 		</HydrateClient>
